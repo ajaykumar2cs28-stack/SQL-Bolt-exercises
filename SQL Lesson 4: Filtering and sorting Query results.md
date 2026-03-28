@@ -23,7 +23,7 @@
 
 ## Task 1: List all directors of Pixar movies (alphabetically), without duplicates
 
-```sql id="u4x92k"
+```sql
 SELECT DISTINCT director
 FROM movies
 ORDER BY director ASC;
@@ -33,7 +33,7 @@ ORDER BY director ASC;
 
 ## Task 2: List the last four Pixar movies released (most recent to least)
 
-```sql id="p9d3la"
+```sql 
 SELECT * FROM movies
 ORDER BY year DESC
 LIMIT 4;
@@ -43,7 +43,7 @@ LIMIT 4;
 
 ## Task 3: List the first five Pixar movies sorted alphabetically
 
-```sql id="h7q2sm"
+```sql 
 SELECT * FROM movies
 ORDER BY title ASC
 LIMIT 5;
@@ -53,7 +53,7 @@ LIMIT 5;
 
 ## Task 4: List the next five Pixar movies sorted alphabetically
 
-```sql id="z1v8cn"
+```sql 
 SELECT * FROM movies
 ORDER BY title ASC
 LIMIT 5 OFFSET 5;
